@@ -1,3 +1,8 @@
+/* Tuple */
+var x;
+x = ['seo', 26];
+//x = [10, 'seo']; //error//
+console.log('tuple print: ' + x[0].length + ',' + x[1]);
 //enum//
 var Color;
 (function (Color) {

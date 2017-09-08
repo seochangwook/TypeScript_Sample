@@ -1,3 +1,9 @@
+/* Tuple */
+let x : [string, number];
+x = ['seo', 26];
+//x = [10, 'seo']; //error//
+console.log('tuple print: ' + x[0].length + ',' + x[1]);
+
 //enum//
 enum Color {Red = 1, Green, Blue};
 var color_name:string = Color[2];
