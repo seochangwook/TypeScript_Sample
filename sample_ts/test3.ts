@@ -20,3 +20,5 @@ var greeter = new Greeter('seo'); //객체생성//
 
 console.log('message: ' + greeter.greet());
 greeter.printfunc();
+var arrowfunctest = (name:string) => name + ' jjang';
+console.log('arrow name: ' + arrowfunctest('seo'));
