@@ -1,13 +1,14 @@
 <!DOCTYPE>
 <head>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.js'></script>
-    <script src='../outfile_js/test3.js'></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.13/system.js"></script>
+    <script src="../outfile_js/test9_require.js"></script>
     <body>
         <h1>Typescript Test page</h1>
         <h2>* Test List</h2>
         <h3>-> compile : tsc --outFile file/directory sourcefile</h3>
         <h3>-> compile : tsc --target ES5 --outFile file/directory sourcefile (getter/setter is support ES5 version)</h3>
         <h3>-> compile : tsc --target ES5 --module amd --outFile file/directory sourcefile</h3>
+        <h3>-> compile : tsc --target ES5 --module commonjs sourcefile</h3>
         <br>
         <li>test1.ts : function, basic</li>
         <li>test2.ts : variable type, Array</li>
@@ -18,5 +19,5 @@
         <li>test7.ts : OOP (Clase extends, getter/setter, static, abstract)</li>
         <li>test8.ts : Generic</li>
         <li>test9_export.ts / test9_import.ts : Module</li>
-    </body>    
+    </body>  
 </head>

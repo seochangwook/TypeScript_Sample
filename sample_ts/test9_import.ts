@@ -1,7 +1,7 @@
 /* Module */
-import printmessage = require('./test9_export'); //모듈을 불러온다.//
+import HelloModule = require("./test9_export");
 
 console.log('hhhhh');
-let exportclass = new printmessage();
+let exportclass = new HelloModule();
 
 exportclass.message('seo');

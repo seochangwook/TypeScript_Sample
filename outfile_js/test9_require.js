@@ -13,10 +13,10 @@ define("test9_export", ["require", "exports"], function (require, exports) {
     }());
     return HelloModule;
 });
-define("test9_import", ["require", "exports", "test9_export"], function (require, exports, printmessage) {
+define("test9_import", ["require", "exports", "test9_export"], function (require, exports, HelloModule) {
     "use strict";
-    exports.__esModule = true;
+    Object.defineProperty(exports, "__esModule", { value: true });
     console.log('hhhhh');
-    var exportclass = new printmessage();
+    var exportclass = new HelloModule();
     exportclass.message('seo');
 });
